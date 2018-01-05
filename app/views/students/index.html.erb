@@ -1,1 +1,4 @@
-<%= @students.each {|s| "#{s.first_name} #{s.last_name}" } %>
+
+<% @students.each do |s| %>
+  <p><%= s.to_s %>
+<%end%>
